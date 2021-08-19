@@ -79,7 +79,7 @@
             {
                 "key": "O",
                 "when": "notebookEditorFocused && !inputFocus",
-                "command": "notebook.toggleOutputs"
+                "command": "notebook.cell.toggleOutputs"
             },
             {
                 "key": "L",
