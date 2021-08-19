@@ -11,8 +11,7 @@
         "vscode": "^1.59.0"
     },
     "categories": [
-        "Notebooks",
-        "Keymaps"
+        "Notebooks"
     ],
     "contributes": {
 		"keybindings":[
