@@ -4,7 +4,7 @@
 	"author": {
         "name": "Microsoft Corporation"
     },
-	"displayName": "jupyter-keymap",
+	"displayName": "Jupyter Keymap",
 	"description": "Jupyter keymaps for VS Code notebooks",
     "version": "0.0.1",
     "engines": {
@@ -12,6 +12,9 @@
     },
     "categories": [
         "Notebooks"
+    ],
+    "keywords": [
+        "notebook-keymap"
     ],
     "contributes": {
 		"keybindings":[
