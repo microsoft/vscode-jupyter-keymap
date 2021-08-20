@@ -1,0 +1,108 @@
+{
+	"name": "jupyter-keymap",
+    "publisher": "ms-toolsai",
+	"author": {
+        "name": "Microsoft Corporation"
+    },
+	"displayName": "Jupyter Keymap",
+	"description": "Jupyter keymaps for VS Code notebooks",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Notebooks"
+    ],
+    "keywords": [
+        "notebook-keymap"
+    ],
+    "contributes": {
+		"keybindings":[
+            {
+                "key": "F",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.find"
+            },
+            {
+                "key": "K",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusUp"
+            },
+            {
+                "key": "J",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "list.focusDown"
+            },
+            {
+                "key": "A",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.insertCodeCellAboveAndFocusContainer"
+            },
+            {
+                "key": "B",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.insertCodeCellBelowAndFocusContainer"
+            },
+            {
+                "key": "D D",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.delete"
+            },
+            {
+                "key": "Z",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "undo"
+            },
+            {
+                "key": "S",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "workbench.action.files.save"
+            },
+            {
+                "key": "C",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.copy"
+            },
+            {
+                "key": "X",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.cut"
+            },
+            {
+                "key": "V",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.paste"
+            },
+            {
+                "key": "shift+L",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.toggleLineNumbers"
+            },
+            {
+                "key": "O",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.toggleOutputs"
+            },
+            {
+                "key": "L",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "notebook.cell.toggleLineNumbers"
+            },
+            {
+                "key": "ctrl+shift+-",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused",
+                "command": "notebook.cell.split"
+            },
+            {
+                "key": "ctrl+enter",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused",
+                "command": "notebook.cell.executeAndFocusContainer"
+            },
+            {
+                "key": "shift+enter",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused && notebookCellType == 'code'",
+                "command": "notebook.cell.executeAndSelectBelow"
+            }
+        ]
+    }
+}
