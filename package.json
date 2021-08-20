@@ -10,6 +10,9 @@
     "engines": {
         "vscode": "^1.59.0"
     },
+    "repository": {
+        "url": "https://github.com/microsoft/vscode-jupyter-keymap"
+    },
     "categories": [
         "Notebooks"
     ],
