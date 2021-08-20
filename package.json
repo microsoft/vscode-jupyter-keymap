@@ -11,7 +11,7 @@
         "theme": "light"
     },
 	"displayName": "Jupyter Keymap",
-	"description": "Jupyter keymaps for VS Code notebooks",
+	"description": "Jupyter keymaps for notebooks in Visual Studio Code",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.59.0"
