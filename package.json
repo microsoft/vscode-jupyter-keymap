@@ -14,7 +14,7 @@
 	"description": "Jupyter keymaps for notebooks in Visual Studio Code",
     "version": "1.0.0",
     "engines": {
-        "vscode": "^1.59.0"
+        "vscode": "^1.60.0-insider"
     },
     "repository": {
         "type": "git",
