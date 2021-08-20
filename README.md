@@ -1,6 +1,6 @@
 # Jupyter keymaps for Visual Studio Code
 
-This extension provides Jupyter-consistent keymaps for notebooks in Visual Studio Code. This extension comes with the Jupyter extension for Visual Studio Code and can be disabled or uninstalled.
+This extension provides Jupyter-consistent keymaps for notebooks in Visual Studio Code. This extension comes with the [Jupyter extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) and can be disabled or uninstalled.
 
 ## Contributing
 
