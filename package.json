@@ -4,14 +4,24 @@
 	"author": {
         "name": "Microsoft Corporation"
     },
+    "license": "MIT",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#ffffff",
+        "theme": "light"
+    },
 	"displayName": "Jupyter Keymap",
 	"description": "Jupyter keymaps for VS Code notebooks",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.59.0"
     },
     "repository": {
-        "url": "https://github.com/microsoft/vscode-jupyter-keymap"
+        "type": "git",
+        "url": "https://github.com/Microsoft/vscode-jupyter-keymap"
+    },
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-jupyter-keymap/issues"
     },
     "categories": [
         "Notebooks"
