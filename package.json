@@ -101,6 +101,16 @@
                 "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
                 "command": "notebook.cell.toggleLineNumbers"
             },
+			{
+				"key": "U",
+				"when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+				"command": "notebook.cell.moveUp"
+			},
+			{
+				"key": "W",
+				"when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+				"command": "notebook.cell.moveDown"
+			},
             {
                 "key": "ctrl+shift+-",
                 "when": "editorTextFocus && inputFocus && notebookEditorFocused && !notebookOutputFocused",
