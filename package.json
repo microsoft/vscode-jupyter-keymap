@@ -12,9 +12,9 @@
     },
 	"displayName": "Jupyter Keymap",
 	"description": "Jupyter keymaps for notebooks",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "engines": {
-        "vscode": "^1.60.0-insider"
+        "vscode": "^1.79.0-insider"
     },
     "repository": {
         "type": "git",
@@ -113,8 +113,14 @@
             },
             {
                 "key": "shift+enter",
-                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused && notebookCellType == 'code'",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused || notebookCellListFocused && notebookCellType == 'code' && !interactiveEditorFocused",
                 "command": "notebook.cell.executeAndSelectBelow"
+            },
+            {
+                "win": "ctrl+alt+enter",
+                "linux": "ctrl+alt+enter",
+                "when": "interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged || interactiveEditorHasProvider && interactiveEditorVisible && config.interactiveEditor.editMode != 'preview'",
+                "command": "interactiveEditor.applyEdits"
             }
         ]
     }
