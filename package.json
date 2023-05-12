@@ -115,6 +115,12 @@
                 "key": "shift+enter",
                 "when": "editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused || notebookCellListFocused && notebookCellType == 'code' && !interactiveEditorFocused",
                 "command": "notebook.cell.executeAndSelectBelow"
+            },
+            {
+                "win": "ctrl+alt+enter",
+                "linux": "ctrl+alt+enter",
+                "when": "interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged || interactiveEditorHasProvider && interactiveEditorVisible && config.interactiveEditor.editMode != 'preview'",
+                "command": "interactiveEditor.applyEdits"
             }
         ]
     }
