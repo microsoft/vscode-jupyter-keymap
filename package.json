@@ -33,77 +33,77 @@
 		"keybindings":[
             {
                 "key": "F",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.find"
             },
             {
                 "key": "K",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "list.focusUp"
             },
             {
                 "key": "J",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "list.focusDown"
             },
             {
                 "key": "A",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.insertCodeCellAboveAndFocusContainer"
             },
             {
                 "key": "B",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.insertCodeCellBelowAndFocusContainer"
             },
             {
                 "key": "D D",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.delete"
             },
             {
                 "key": "Z",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "undo"
             },
             {
                 "key": "S",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "workbench.action.files.save"
             },
             {
                 "key": "C",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.copy"
             },
             {
                 "key": "X",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.cut"
             },
             {
                 "key": "V",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.paste"
             },
             {
                 "key": "shift+L",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.toggleLineNumbers"
             },
             {
                 "key": "O",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.toggleOutputs"
             },
             {
                 "key": "L",
-                "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused",
+                "when": "notebookEditorFocused && !inputFocus && !notebookOutputInputFocused",
                 "command": "notebook.cell.toggleLineNumbers"
             },
             {
                 "key": "ctrl+shift+-",
-                "when": "editorTextFocus && inputFocus && notebookEditorFocused && !notebookOutputFocused",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused && !notebookOutputInputFocused",
                 "command": "notebook.cell.split"
             },
             {
