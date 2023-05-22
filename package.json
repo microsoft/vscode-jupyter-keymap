@@ -121,6 +121,16 @@
                 "linux": "ctrl+alt+enter",
                 "when": "interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged || interactiveEditorHasProvider && interactiveEditorVisible && config.interactiveEditor.editMode != 'preview'",
                 "command": "interactiveEditor.applyEdits"
+            },
+            {
+                "key": "0 0",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "jupyter.restartkernel"
+            },
+            {
+                "key": "i i",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "jupyter.interruptkernel"
             }
         ]
     }
