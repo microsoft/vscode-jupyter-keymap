@@ -113,13 +113,13 @@
             },
             {
                 "key": "shift+enter",
-                "when": "editorTextFocus && inputFocus && notebookEditorFocused && !interactiveEditorFocused || notebookCellListFocused && notebookCellType == 'code' && !interactiveEditorFocused",
+                "when": "editorTextFocus && inputFocus && notebookEditorFocused && !inlineChatFocused || notebookCellListFocused && notebookCellType == 'code' && !inlineChatFocused",
                 "command": "notebook.cell.executeAndSelectBelow"
             },
             {
                 "win": "ctrl+alt+enter",
                 "linux": "ctrl+alt+enter",
-                "when": "interactiveEditorHasProvider && interactiveEditorVisible && !interactiveEditorDocumentChanged || interactiveEditorHasProvider && interactiveEditorVisible && config.interactiveEditor.editMode != 'preview'",
+                "when": "inlineChatHasProvider && inlineChatVisible && !inlineChatDocumentChanged || inlineChatHasProvider && inlineChatVisible && config.inlineChat.editMode != 'preview'",
                 "command": "interactive.acceptChanges"
             }
         ]
