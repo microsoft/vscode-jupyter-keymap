@@ -12,7 +12,7 @@
     },
 	"displayName": "Jupyter Keymap",
 	"description": "Jupyter keymaps for notebooks",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.80.0"
     },
