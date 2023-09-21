@@ -14,7 +14,7 @@
 	"description": "Jupyter keymaps for notebooks",
     "version": "1.1.2",
     "engines": {
-        "vscode": "^1.79.0-insider"
+        "vscode": "^1.80.0"
     },
     "repository": {
         "type": "git",
