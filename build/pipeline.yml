@@ -27,7 +27,7 @@ extends:
         displayName: npm install npm@8.15.1
 
     tsa:
-      enabled: true
       config:
         areaPath: 'Visual Studio Code Jupyter Extensions'
         serviceTreeID: '14f24efd-b502-422a-9f40-09ea7ce9cf14'
+      enabled: true
