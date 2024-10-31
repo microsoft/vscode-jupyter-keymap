@@ -108,7 +108,7 @@
             },
             {
                 "key": "ctrl+enter",
-                "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused",
+                "when": "!inlineChatVisible && notebookCellListFocused",
                 "command": "notebook.cell.executeAndFocusContainer"
             },
             {
