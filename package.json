@@ -120,7 +120,6 @@
             {
                 "win": "ctrl+alt+enter",
                 "linux": "ctrl+alt+enter",
-                "mac": "cmd+alt+enter",
                 "when": "inlineChatHasProvider && inlineChatVisible && !inlineChatDocumentChanged || inlineChatHasProvider && inlineChatVisible && config.inlineChat.editMode != 'preview'",
                 "command": "interactive.acceptChanges"
             }
