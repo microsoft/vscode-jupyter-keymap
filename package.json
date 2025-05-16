@@ -108,6 +108,7 @@
             },
             {
                 "key": "ctrl+enter",
+                "mac": "cmd+enter",
                 "when": "!inlineChatVisible && notebookCellListFocused",
                 "command": "notebook.cell.executeAndFocusContainer"
             },
@@ -119,6 +120,7 @@
             {
                 "win": "ctrl+alt+enter",
                 "linux": "ctrl+alt+enter",
+                "mac": "cmd+alt+enter",
                 "when": "inlineChatHasProvider && inlineChatVisible && !inlineChatDocumentChanged || inlineChatHasProvider && inlineChatVisible && config.inlineChat.editMode != 'preview'",
                 "command": "interactive.acceptChanges"
             }
